@@ -1,3 +1,71 @@
+* {
+  box-sizing: border-box;
+}
 
+html, body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.header-title h1 {
+  font-family: "Vampiro One", cursive;
+  margin-left: -30px;
+  text-shadow: 0px 1px 5px rgba(0, 110, 255, 0.747);
+}
+
+.header--title_navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5em;
+  width: 100vw;
+  font-family: "Staatliches", sans-serif;
+  background-color: rgba(243, 243, 243, 0.8);
+  background-attachment: fixed;
+  border-bottom: 2px solid black;
+}
+.header--title_navbar div:nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+.header--title_navbar div:nth-child(1) a {
+  display: block;
+  margin-left: 50px;
+  margin-top: 0px;
+}
+.header--title_navbar div:nth-child(1) a:hover {
+  transform: scale(1.5);
+}
+.header--title_navbar div:nth-child(1) a #fbos {
+  width: 10px;
+  height: 16px;
+  margin-right: 20px;
+}
+.header--title_navbar div:nth-child(1) a #twitos {
+  width: 17px;
+  margin-right: 20px;
+}
+.header--title_navbar .header-navbar a {
+  text-decoration: none;
+  margin-left: 100px;
+  font-size: 20px;
+  color: black;
+}
+.header--title_navbar .header-navbar a:hover {
+  transform: scale(1.2);
+  text-decoration: underline;
+  text-underline-position: below;
+  text-shadow: 0px 1px 5px rgba(0, 110, 255, 0.747);
+}
+
+header {
+  background-image: url(image/banner1.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 700px;
+}
 
 /*# sourceMappingURL=style.css.map */
