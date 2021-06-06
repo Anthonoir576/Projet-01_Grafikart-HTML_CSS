@@ -28,7 +28,7 @@ header {
   text-shadow: 0px 1px 5px rgba(0, 110, 255, 0.747);
 }
 
-.header--title_navbar {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -40,38 +40,39 @@ header {
   position: fixed;
   z-index: 9999;
   border-bottom: 3px solid #006eff;
+  box-shadow: 0 0 50px 5px black;
 }
-.header--title_navbar div:nth-child(1) {
+.header div:nth-child(1) {
   display: flex;
   align-items: center;
 }
-.header--title_navbar div:nth-child(1) a {
+.header div:nth-child(1) a {
   display: block;
   margin-left: 50px;
   margin-top: 0px;
   max-width: 17px;
 }
-.header--title_navbar div:nth-child(1) a:hover {
+.header div:nth-child(1) a:hover {
   transform: scale(1.5);
   filter: drop-shadow(0 0mm 1mm #006eff);
 }
-.header--title_navbar div:nth-child(1) a #fbos {
+.header div:nth-child(1) a #fbos {
   width: 10px;
   height: 16px;
   margin-right: 20px;
 }
-.header--title_navbar div:nth-child(1) a #twitos {
+.header div:nth-child(1) a #twitos {
   width: 17px;
   margin-right: 20px;
 }
-.header--title_navbar .header-navbar a {
+.header .header-navbar a {
   text-decoration: none;
   margin-left: 100px;
   font-size: 20px;
   color: #004a7c;
   letter-spacing: 5px;
 }
-.header--title_navbar .header-navbar a:hover {
+.header .header-navbar a:hover {
   transform: scale(1.2);
   text-decoration: underline;
   color: #006eff;
