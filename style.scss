@@ -1,3 +1,5 @@
+
+// Variable 
 $font: #004a7c;
 $font2: #005691;
 $background: #fafafa;
@@ -223,9 +225,9 @@ main {
         font-size: 20px;
 
         width: 300px;
-        border-top: 3px solid $blueperso;
+        border-top: 1px solid $blueperso;
         background-color: $sousbackground;
-        border-left: 1px solid $font2;
+        border-left: 1px solid $blueperso;
 
         & div {
 
@@ -283,7 +285,7 @@ main {
     article {
 
         width: 1603px;
-        border-top: 3px solid $blueperso;
+        border-top: 1px solid $blueperso;
 
         display: flex;
         flex-direction: column;
@@ -298,7 +300,7 @@ main {
         justify-content: center;
 
         background-color: $sousbackground;
-        border: 1px solid $font2;
+        border: 1px solid rgba(0, 110, 255, 0.3);
         border-radius: 10px;
 
         width: 750px;
@@ -355,7 +357,7 @@ footer {
 
     & hr {
 
-        color:$sousbackground ;
+        border-top: 0.1px solid $blueperso;
         margin-bottom: 0;
 
     }

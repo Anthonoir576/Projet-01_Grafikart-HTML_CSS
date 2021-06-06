@@ -158,9 +158,9 @@ main {
 main aside {
   font-size: 20px;
   width: 300px;
-  border-top: 3px solid #006eff;
+  border-top: 1px solid #006eff;
   background-color: #e8f1f559;
-  border-left: 1px solid #005691;
+  border-left: 1px solid #006eff;
 }
 main aside div {
   margin-bottom: 36px;
@@ -196,7 +196,7 @@ main aside hr {
 
 main article {
   width: 1603px;
-  border-top: 3px solid #006eff;
+  border-top: 1px solid #006eff;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -206,7 +206,7 @@ main .article {
   display: flex;
   justify-content: center;
   background-color: #e8f1f559;
-  border: 1px solid #005691;
+  border: 1px solid rgba(0, 110, 255, 0.3);
   border-radius: 10px;
   width: 750px;
   height: 170px;
@@ -241,7 +241,7 @@ footer p {
   overflow-x: hidden;
 }
 footer hr {
-  color: #e8f1f559;
+  border-top: 0.1px solid #006eff;
   margin-bottom: 0;
 }
 footer em {
