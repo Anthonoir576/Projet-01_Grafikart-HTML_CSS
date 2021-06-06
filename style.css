@@ -53,6 +53,7 @@ header {
 }
 .header--title_navbar div:nth-child(1) a:hover {
   transform: scale(1.5);
+  filter: drop-shadow(0 0mm 1mm #006eff);
 }
 .header--title_navbar div:nth-child(1) a #fbos {
   width: 10px;
