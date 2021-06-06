@@ -349,6 +349,8 @@ footer {
         display: flex;
         justify-content: center;
         background-color: $sousbackground;
+        letter-spacing: 1px;
+        overflow-x: hidden;
     }
 
     & hr {
@@ -358,39 +360,13 @@ footer {
 
     }
 
-}
+    & em {
 
-// animation FOOTER 
-.animate {
-    -webkit-animation-name: slideInUp;
-    animation-name: slideInUp;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
+        letter-spacing: 0;
+
     }
-    @keyframes slideInUp {
-    0% {
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
-    visibility: visible;
-    }
-    100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    }
-    }
-    @keyframes slideInUp {
-    0% {
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
-    visibility: visible;
-    }
-    100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    }
-    } 
+
+}
 
 // Animation ASIDE    
 aside {
